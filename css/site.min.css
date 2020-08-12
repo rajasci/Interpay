@@ -1,0 +1,193 @@
+body{
+	font-family:'Nunito', sans-serif !important;line-height:1.6em}
+	div{object-fit:contain}
+	ul{margin-bottom:1em;
+		padding-left:1em
+		}
+	li
+	{
+		list-style:disc outside none
+		}
+	.lineHeightFix{
+		line-height:1.6em}
+	.panel{
+		pointer-events:auto !important}
+	.prevSlideFix{
+		margin-top:-16px
+		}
+	.verticalCenterFix{
+		position:absolute;
+		margin-left:-28px;
+		top:50%;
+		transform:translateY(-50%);
+		width:85%
+		}
+	.homeSlide p{
+			font-size:15px
+			}
+	.homeSlide .scaledText p{
+		font-size:1.5vw
+		}
+	.valueSlide h1{
+		font-size:24px
+		}.valueSlide 
+	h2{
+			font-size:16px
+		}
+	.valueSlide li{
+		list-style:url('../img/value/checked-checkbox.png')
+		}
+	.valueSlide .scaledText h1{
+		font-size:1.5vw
+		}
+	.valueSlide .slider h1{
+		font-size:3vw
+		}
+	.solutionSlide h1{
+		font-size:24px
+		}
+	.solutionSlide h2{
+		font-size:16px
+		}
+	.solutionSlide .scaledText h1{
+		font-size:1.5vw
+		}
+	.solutionSlide .scaledText h2{
+		font-size:1.2vw
+		}
+	.solutionSlide .scaledText li{
+		font-size:1vw;
+		line-height:2em
+		}
+	.solutionSlide .slider img{
+		padding-left:2vw;
+		padding-right:2vw;
+		max-height:40vh
+		}
+	.aboutSlide h1{
+		font-size:24px
+		}
+	.aboutSlide h2{
+		font-size:18px
+		}
+	.aboutSlide p{
+		font-size:15px
+		}
+	.aboutSlide .scaledText h1{
+		font-size:2vw
+		}
+	.aboutSlide .scaledText h2{
+		font-size:1.6vw
+		}
+	.aboutSlide .scaledText li,.aboutSlide .scaledText p{
+		font-size:1.2vw
+		}
+	.aboutSlide .slider img{
+		padding-left:2vw;
+		padding-right:2vw;
+		max-height:40vh
+		}
+	.blogSlide h1{
+		border-top:1px solid white;
+		font-size:12px;
+		padding-top:6px;
+		margin-bottom:12px
+		}
+	.blogSlide h2{
+		font-size:18px;
+		margin-bottom:48px
+		}
+	.blogSlide p{
+		font-size:16pt
+		}
+	.blogSlide .readMoreButton{
+		margin:-2em auto 2em
+		}
+	@media (min-width: 1023px){.blogSlide .readMoreButton{
+		border:1px solid white;
+		border-radius:0.6em;
+		margin-top:0;
+		margin-bottom:4em;
+		padding:0.4em;
+		text-align:center;
+		width:10vw
+		}
+        
+        
+	.blogSlide .posts{
+		max-width:75vw;
+		margin-left:auto;
+		margin-right:auto
+		}
+	.blogSlide h1{
+		text-align:right;
+		margin-bottom:2em
+		}
+	.blogSlide h2{
+		font-size:3.5vh
+		}
+	.blogSlide p{}}
+
+
+
+
+	.contactSlide h1{
+		font-size:24px;
+		margin-bottom:5vh
+		}
+	.contactSlide h2{
+		font-size:18px;
+		margin-bottom:5vh
+		}
+	.contactSlide p{
+		font-size:15px;
+		margin-bottom:5vh
+		}
+
+	@media (min-width: 767px){
+		.contactSlide h1{
+			font-size:42px;
+			margin-bottom:5vh
+			}
+		.contactSlide h2{
+			font-size:32px;
+			margin-bottom:5vh
+			}
+		.contactSlide p{
+			font-size:28px;
+			margin-bottom:5vh}
+			}
+		@media (min-width: 1023px){
+			.contactSlide h1{
+				font-size:3vw;
+				text-align:center
+				}
+			.contactSlide h2{
+				font-size:2vw;
+				text-align:center
+				}
+			.contactSlide p{
+				font-size:2vw;
+				text-align:center
+				}
+				}
+			.header a{
+				margin-left:12px
+				}
+			.header img{vertical-align:middle}
+			.footer{
+				color:black;
+				background:rgba(255, 255, 255, 0.8)
+				}
+			@media (min-width: 1023px)
+			{
+				.footer{background:#d4d3d4;border-radius:24px}
+				.footer span{font-size:12px}}
+				.footer img{vertical-align:middle}
+				@media (min-width: 1919px){
+					.hideOver1920{display:none !important}
+					}
+                @media (min-width: 1919px){
+                    .showOver1920{display:block !important}}
+                @media (min-width: 1439px){
+                    .hideOver1440{display:none !important}}@media (min-width: 1439px){.showOver1440{display:block !important}}@media (min-width: 1279px){.hideOver1280{display:none !important}}@media (min-width: 1279px){.showOver1280{display:block !important}}@media (min-width: 1023px){.hideOver1024{display:none !important}}@media (min-width: 1023px){.showOver1024{display:block !important}}@media (min-width: 767px){.hideOver768{display:none !important}}@media (min-width: 767px){.showOver768{display:block !important}}.leftControl,.rightControl{position:absolute;top:50%;margin-top:-35px;margin-left:-100px;cursor:pointer;font-size:0;width:64px;height:160px;margin-top:-64px}.leftControl{padding-left:24px}.rightControl{right:0;margin-right:-113px;padding-right:24px}.leftControl svg,.rightControl svg{margin-top:64px;width:24px;height:24px}@media screen and (max-width:767px){.leftControl,.rightControl{display:none}}
